@@ -1,0 +1,10 @@
+2026-10-07 14:25:56,753 - INFO - Starting Data Quality Validation Checks...
+2026-10-07 14:25:56,810 - INFO - ✅ PASS: No critical NULL values found.
+2026-10-07 14:25:56,814 - INFO - ✅ PASS: All temperatures are within plausible operational bounds (-50°C to +60°C).
+2026-10-07 14:25:56,814 - INFO - ✅ PASS: All geographical coordinates are valid.
+2026-10-07 14:25:56,816 - INFO - 📊 DATA AUDIT SUMMARY: Staging Records = 3 | Analytics Records = 3
+2026-10-07 14:53:36,944 - INFO - Starting Data Quality Validation Checks...
+2026-10-07 14:53:36,988 - INFO - ✅ PASS: No critical NULL values found.
+2026-10-07 14:53:36,990 - INFO - ✅ PASS: All temperatures are within plausible operational bounds (-50°C to +60°C).
+2026-10-07 14:53:36,990 - INFO - ✅ PASS: All geographical coordinates are valid.
+2026-10-07 14:53:36,991 - INFO - 📊 DATA AUDIT SUMMARY: Staging Records = 18 | Analytics Records = 18
