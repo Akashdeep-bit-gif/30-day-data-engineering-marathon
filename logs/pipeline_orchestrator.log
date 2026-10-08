@@ -1,0 +1,38 @@
+2026-10-07 14:50:05,403 - INFO - Starting End-to-End Data Engineering Pipeline Execution.
+2026-10-07 14:50:05,403 - INFO - Executing stage: Phase 1: API Ingestion
+2026-10-07 14:50:07,028 - INFO - Stage 'Phase 1: API Ingestion' completed successfully.
+2026-10-07 14:50:07,028 - INFO - Executing stage: Phase 2: Staging DB Load
+2026-10-07 14:50:07,288 - INFO - Stage 'Phase 2: Staging DB Load' completed successfully.
+2026-10-07 14:50:07,288 - INFO - Executing stage: Phase 3: Analytics Transformation
+2026-10-07 14:50:07,389 - ERROR - Stage 'Phase 3: Analytics Transformation' failed with return code 1.
+2026-10-07 14:50:07,389 - ERROR - ❌ PIPELINE FAILURE: Execution failed: Stage failed: Phase 3: Analytics Transformation
+Error: Traceback (most recent call last):
+  File "/mnt/c/Users/KIIT/DataEngineering/30-day-marathon/code/day-03-transform/transform_data.py", line 20, in <module>
+    from code.day_01_api_ingest.extract import fetch_and_save_weather
+ModuleNotFoundError: No module named 'code.day_01_api_ingest'; 'code' is not a package
+
+2026-10-07 14:51:57,299 - INFO - Starting End-to-End Data Engineering Pipeline Execution.
+2026-10-07 14:51:57,299 - INFO - Executing stage: Phase 1: API Ingestion
+2026-10-07 14:51:58,844 - INFO - Stage 'Phase 1: API Ingestion' completed successfully.
+2026-10-07 14:51:58,845 - INFO - Executing stage: Phase 2: Staging DB Load
+2026-10-07 14:51:59,093 - INFO - Stage 'Phase 2: Staging DB Load' completed successfully.
+2026-10-07 14:51:59,094 - INFO - Executing stage: Phase 3: Analytics Transformation
+2026-10-07 14:51:59,297 - ERROR - Stage 'Phase 3: Analytics Transformation' failed with return code 1.
+2026-10-07 14:51:59,298 - ERROR - ❌ PIPELINE FAILURE: Execution failed: Stage failed: Phase 3: Analytics Transformation
+Error: Traceback (most recent call last):
+  File "/mnt/c/Users/KIIT/DataEngineering/30-day-marathon/code/day-03-transform/transform_data.py", line 22, in <module>
+    from code.day_01_api_ingest.extract import fetch_and_save_weather
+ModuleNotFoundError: No module named 'code.day_01_api_ingest'; 'code' is not a package
+
+2026-10-07 14:53:34,433 - INFO - Starting End-to-End Data Engineering Pipeline Execution.
+2026-10-07 14:53:34,434 - INFO - Executing stage: Phase 1: API Ingestion
+2026-10-07 14:53:35,980 - INFO - Stage 'Phase 1: API Ingestion' completed successfully.
+2026-10-07 14:53:35,980 - INFO - Executing stage: Phase 2: Staging DB Load
+2026-10-07 14:53:36,242 - INFO - Stage 'Phase 2: Staging DB Load' completed successfully.
+2026-10-07 14:53:36,243 - INFO - Executing stage: Phase 3: Analytics Transformation
+2026-10-07 14:53:36,494 - INFO - Stage 'Phase 3: Analytics Transformation' completed successfully.
+2026-10-07 14:53:36,494 - INFO - Executing stage: Phase 4: Daily Aggregations
+2026-10-07 14:53:36,738 - INFO - Stage 'Phase 4: Daily Aggregations' completed successfully.
+2026-10-07 14:53:36,738 - INFO - Executing stage: Phase 5: Quality Audit
+2026-10-07 14:53:37,004 - INFO - Stage 'Phase 5: Quality Audit' completed successfully.
+2026-10-07 14:53:37,005 - INFO - Pipeline finished successfully in 2.57 seconds.
