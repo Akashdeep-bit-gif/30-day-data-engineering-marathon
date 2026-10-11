@@ -1,0 +1,14 @@
+database:
+  dbname: "data_engineering_db"
+  user: "postgres"
+  host: "127.0.0.1"
+  port: 5432
+
+location:
+  latitude: 22.6011
+  longitude: 88.3178
+  name: "Kolkata"
+
+quality:
+  min_temp: -50
+  max_temp: 60
